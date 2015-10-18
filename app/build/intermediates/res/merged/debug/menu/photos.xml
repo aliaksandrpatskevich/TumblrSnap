@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/action_add_photo"
+        android:icon="@drawable/ic_image"
+        android:orderInCategory="200"
+        android:showAsAction="always"
+        android:title="Add Photo">
+        <menu>
+            <item
+                android:id="@+id/action_take_photo"
+                android:title="Take Photo"
+                android:icon="@drawable/ic_camera"/>
+            <item
+                android:id="@+id/action_use_existing"
+                android:title="Use Existing"
+                android:icon="@drawable/ic_choose"/>
+        </menu>
+    </item>
+</menu><!-- From: file:/D:/Downloads/tumblrsnap-master/app/src/main/res/menu/photos.xml -->
